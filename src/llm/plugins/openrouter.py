@@ -18,9 +18,9 @@ R = T.TypeVar("R", bound=BaseModel)
 class OpenRouterModel(str, Enum):
     """Available OpenRouter models."""
 
-    ANTHROPIC_SONNET_4_5 = "anthropic/claude-sonnet-4.5"
-    ANTHROPIC_OPUS_4_5 = "anthropic/claude-opus-4.5"
-    ANTHROPIC_HAIKU_4_5 = "anthropic/claude-haiku-4.5"
+    ANTHROPIC_SONNET_4_5 = "anthropic/-sonnet-4.5"
+    ANTHROPIC_OPUS_4_5 = "anthropic/-opus-4.5"
+    ANTHROPIC_HAIKU_4_5 = "anthropic/-haiku-4.5"
     MOONSHOT_KIMI_K2_5 = "moonshotai/kimi-k2.5"
     MINIMAX_M2_1 = "minimax/minimax-m2.1"
     Z_AI_GLM_4_7 = "z-ai/glm-4.7"

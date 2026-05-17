@@ -26,8 +26,8 @@ junit.xml
 # IDE
 .vscode/
 
-# Claude Code
-CLAUDE.md
+#  Code
+.md
 
 # Debug files
 front_image.jpg

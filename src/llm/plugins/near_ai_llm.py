@@ -23,7 +23,7 @@ class NearAIModel(str, Enum):
     GPT_OSS_120B = "openai/gpt-oss-120b"
     GPT_5_2 = "openai/gpt-5.2"
     GLM_4_7 = "zai-org/GLM-4.7"
-    CLAUDE_SONNET_4_5 = "anthropic/claude-sonnet-4-5"
+    _SONNET_4_5 = "anthropic/-sonnet-4-5"
     GEMINI_3_PRO = "google/gemini-3-pro"
 
 

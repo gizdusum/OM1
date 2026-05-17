@@ -40,7 +40,7 @@ Beta release for the Docker image openmindagi/om1, which provides the full setup
 
 
 ### [v1.0.0-beta.4](https://github.com/OpenMind/OM1/releases/tag/v1.0.0-beta.4)
-- Openrouter support for LLama and Anthropic: Added compatibility with OpenRouter API, enabling seamless access to more AI providers, including Meta’s LLaMA and Anthropic Claude models. This allows flexible model selection for natural language processing, reasoning, and control tasks depending on performance or cost preferences.
+- Openrouter support for LLama and Anthropic: Added compatibility with OpenRouter API, enabling seamless access to more AI providers, including Meta’s LLaMA and Anthropic  models. This allows flexible model selection for natural language processing, reasoning, and control tasks depending on performance or cost preferences.
 - Support multiple modes: We now support 5 different modes with Unitree Go2 full autonomy.
     Welcome mode - Initial greeting and user information gathering
     Conversation - Focused conversation and social interaction mode

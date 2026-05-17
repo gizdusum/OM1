@@ -27,7 +27,7 @@ OpenMind supports the following LLM providers:
 | Google Gemini | `gemini` | Gemini Pro and Flash models |
 | X.AI | `xai` | Grok models from X.AI |
 | NEAR.AI | `nearai` | Qwen and other NEAR.AI hosted models |
-| OpenRouter | `openrouter` | Multi-provider access including Anthropic Claude, Meta Llama |
+| OpenRouter | `openrouter` | Multi-provider access including Anthropic , Meta Llama |
 
 ## Supported Models
 
@@ -82,8 +82,8 @@ qwen-2.5-7b-instruct
 ```
 meta-llama/llama-3.1-70b-instruct
 meta-llama/llama-3.3-70b-instruct
-anthropic/claude-sonnet-4.5
-anthropic/claude-opus-4.1
+anthropic/-sonnet-4.5
+anthropic/-opus-4.1
 ```
 
 > **Note:** Model names are validated using prefix matching. For example, "gpt-4o" will match "gpt-4o", "gpt-4o-2024-08-06", etc.
@@ -140,7 +140,7 @@ curl --location 'https://api.openmind.org/api/core/openrouter/chat/completions' 
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <YOUR_KEY>' \
 --data '{
-    "model": "anthropic/claude-sonnet-4.5",
+    "model": "anthropic/-sonnet-4.5",
     "messages": [
       {
         "role": "user",
@@ -244,14 +244,14 @@ curl -X POST https://api.openmind.org/api/core/openai/chat/completions \
   }'
 ```
 
-### Anthropic Claude (via OpenRouter)
+### Anthropic  (via OpenRouter)
 
 ```bash
 curl -X POST https://api.openmind.org/api/core/openrouter/chat/completions \
   -H "Authorization: Bearer om1_live_your_api_key" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "anthropic/claude-sonnet-4.5",
+    "model": "anthropic/-sonnet-4.5",
     "messages": [
       {
         "role": "user",
@@ -453,7 +453,7 @@ curl -X POST https://api.openmind.org/api/core/openai/chat/completions \
 - Code generation
 - Creative writing
 
-**Anthropic Claude (via OpenRouter):**
+**Anthropic  (via OpenRouter):**
 - Long context understanding
 - Detailed analysis
 - Safety-critical applications
@@ -487,8 +487,8 @@ curl -X POST https://api.openmind.org/api/core/openai/chat/completions \
 
 | Model Tier | Examples | Use Case |
 |------------|----------|----------|
-| High Performance | gpt-5, claude-opus-4.1, gemini-3-pro | Complex reasoning, production applications |
-| Balanced | gpt-4o, claude-sonnet-4.5, grok-4 | General-purpose, most tasks |
+| High Performance | gpt-5, -opus-4.1, gemini-3-pro | Complex reasoning, production applications |
+| Balanced | gpt-4o, -sonnet-4.5, grok-4 | General-purpose, most tasks |
 | Fast/Economical | gpt-4o-mini, gemini-2.5-flash-lite, deepseek-chat | High-volume, simple tasks |
 
 ## Error Handling
@@ -658,8 +658,8 @@ def chat_completion(messages, model="gpt-4o", max_retries=3):
 
 ```
 High-volume, simple tasks → gpt-4o-mini, gemini-2.5-flash-lite
-General-purpose → gpt-4o, claude-sonnet-4.5
-Complex reasoning → gpt-5, claude-opus-4.1
+General-purpose → gpt-4o, -sonnet-4.5
+Complex reasoning → gpt-5, -opus-4.1
 Code generation → deepseek-chat, gpt-4o
 Vision tasks → qwen2.5-vl-72b-instruct, gemini-2.5-pro
 ```
@@ -798,7 +798,7 @@ Rate limits vary by provider and your OpenMind subscription plan. Monitor your u
 
 - [OpenMind Portal](https://portal.openmind.org) - Manage API keys and view usage
 - [OpenAI API Documentation](https://platform.openai.com/docs/api-reference)
-- [Anthropic Claude Documentation](https://docs.anthropic.com/)
+- [Anthropic  Documentation](https://docs.anthropic.com/)
 - [Google Gemini Documentation](https://ai.google.dev/docs)
 - [OpenRouter Documentation](https://openrouter.ai/docs)
 

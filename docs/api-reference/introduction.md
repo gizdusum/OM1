@@ -84,7 +84,7 @@ For developer walkthrough and support reach out to: support@openmind.org
 | openai/gpt-oss-120b                   | 1500 OMCU                   | 5500 OMCU                    |
 | openai/gpt-5.2                        | 18000 OMCU                  | 155000 OMCU                  |
 | zai-org/GLM-4.7                       | 8500 OMCU                   | 33000 OMCU                   |
-| anthropic/claude-sonnet-4-5           | 30000 OMCU                  | 155000 OMCU                  |
+| anthropic/-sonnet-4-5           | 30000 OMCU                  | 155000 OMCU                  |
 | google/gemini-3-pro                   | 12500 OMCU                  | 150000 OMCU                  |
 
 
@@ -93,9 +93,9 @@ For developer walkthrough and support reach out to: support@openmind.org
 | Service                               | Input Price (per 1M tokens) | Output Price (per 1M tokens) |
 |---------------------------------------|-----------------------------|------------------------------|
 | deepseek/deepseek-v3.2                | 2500 OMCU                   | 3800 OMCU                    |
-| anthropic/claude-sonnet-4.5           | 30000 OMCU                  | 150000 OMCU                  |
-| anthropic/claude-opus-4.5             | 50000 OMCU                  | 250000 OMCU                  |
-| anthropic/claude-haiku-4.5            | 10000 OMCU                  | 50000 OMCU                   |
+| anthropic/-sonnet-4.5           | 30000 OMCU                  | 150000 OMCU                  |
+| anthropic/-opus-4.5             | 50000 OMCU                  | 250000 OMCU                  |
+| anthropic/-haiku-4.5            | 10000 OMCU                  | 50000 OMCU                   |
 | moonshotai/kimi-k2.5                  | 4500 OMCU                   | 25000 OMCU                   |
 | minimax/minimax-m2.1                  | 2700 OMCU                   | 9500 OMCU                    |
 | z-ai/glm-4.7                          | 4000 OMCU                   | 15000 OMCU                   |

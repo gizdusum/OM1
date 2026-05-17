@@ -216,7 +216,7 @@ NEAR_AI_SUPPORTED_MODELS = ["qwen3-30b-a3b-instruct-2507", "qwen2.5-vl-72b-instr
 ```
 
 ```python
-OPENROUTER_SUPPORTED_MODELS = ["meta-llama/llama-3.1-70b-instruct", "meta-llama/llama-3.3-70b-instruct", "anthropic/claude-sonnet-4.5", "anthropic/claude-opus-4.1"]
+OPENROUTER_SUPPORTED_MODELS = ["meta-llama/llama-3.1-70b-instruct", "meta-llama/llama-3.3-70b-instruct", "anthropic/-sonnet-4.5", "anthropic/-opus-4.1"]
 ```
 
 ```python
